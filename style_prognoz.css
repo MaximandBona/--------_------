@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    background-color: rgb(208, 248, 248);
+}
+.prog .mesta{
+    width: 90%;
+    margin: 20px auto;
+}
+.prog img{
+    margin:  20px 500px;
+    width: 800px;
+    height: 600px;
+}
+.prog h1{
+    margin:  20px 800px;
+}
+h1{
+    margin:  20px 750px;
+}
+.mesto1 .mesto2 .mesto3{
+    display: block;
+    margin: auto;
+}  
+
+.mesta{
+    display: flex;
+    padding: 20px;
+    width: 90%;
+    height: 400px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 8px;
+}
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #4CAF50;
+    color: aliceblue;
+    padding:  10px 830px;
+}
+footer {
+    margin:  50px 0px 0px 0px;
+}
+.button{
+    display: block;
+    padding: 15px;
+    background-color: rgb(2, 147, 147);
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    top: 20px;
+    left:20px;
+    margin: 20px auto;
+}
+.button:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    background-color: rgb(162, 248, 248);
+    transition: 2s;
+}

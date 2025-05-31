@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+    background-color: rgb(208, 248, 248);
+    scroll-behavior: smooth;
+}
+footer{
+    width: 100%;
+    height: 170px;
+    background-color: #4CAF50;
+    color: aliceblue;
+    padding:  10px 830px;
+}
+footer {
+    margin:  50px 0px 0px 0px;
+}
+.menu {
+    width: 660px;
+    height: 70px;
+    background-color: aqua;
+    color: white;
+    backdrop-filter: blur(8px);
+    padding: 16px;
+    border-radius: 8px;
+    z-index: 3;
+    margin: 10px 600px;
+}
+
+.menu ul {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;   
+    height: 100%;          
+    margin: 0;             
+    padding: 0;      
+    position: relative;
+}
+.punkt {
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: aqua;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+}
+
+.punkt:hover {
+    background-color: #00b1ff;
+    color: #333;
+}
+.cover{
+    width: 240px;
+    height: 420px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    z-index: 2;
+    display: block;
+    margin: 10px auto;
+    h2 p1 p2{
+        color: #333;
+    }
+    h3{
+        color: #00b1ff;
+    }
+    p1{
+        text-decoration: line-through;
+    }
+}
+.cover img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+.card{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+.bt{
+    display: block;
+    padding: 15px;
+    background-color:  #00b1ff;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    top: 20px;
+    left:20px;
+    position: relative;
+}
+.bt:hover{
+    transform: scale(1.2);
+    background-color: #036189;
+    transition: 1s;
+}
+.button:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    background-color: rgb(162, 248, 248);
+    transition: 2s;
+}
+h1{
+    text-align: center;
+}
+.button{
+    display: block;
+    padding: 15px;
+    background-color: rgb(2, 147, 147);
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    top: 20px;
+    left:20px;
+    margin: 20px auto;
+}
